@@ -165,10 +165,10 @@
             <config>
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
-            <pods use-frameworks="true">
-                <pod name="FBSDKCoreKit/Swift" spec="5.15.0" options=":modular_headers => true" />
-                <pod name="FBSDKLoginKit/Swift" spec="5.15.0"/>
-                <pod name="FBSDKShareKit/Swift" spec="5.15.0"/>
+            <pods>
+                <pod name="FBSDKCoreKit/Swift" options=":modular_headers => true" />
+                <pod name="FBSDKLoginKit/Swift" />
+                <pod name="FBSDKShareKit/Swift" />
             </pods>
         </podspec>
 
